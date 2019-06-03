@@ -1,0 +1,195 @@
+﻿body{
+  background-image: url("../img/fundo2.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  margin-bottom: -30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.puts{
+  height: 75px;
+  width: 75px;
+}
+
+.menu{
+  background:transparent;
+  box-shadow:none;
+}
+
+.brand-logo{
+  margin-top:20px;
+  margin-left:20px;
+}
+
+.titulo{
+  padding-top: 10px;
+  margin-left: 30px;
+  font-size: 2.2em;
+  color: #424242;
+  font-weight: 700;
+}
+.formula{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.sobre h3{
+  font-size: 2em;
+  font-weight: 800;
+  color:white;
+}
+.sobre{
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-attachment: fixed;
+  background-image: url("../img/cabana.jpg");
+  background-size:100%;
+  background-attachment: scroll;
+}
+
+.sobre span{
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.sobre img{
+  animation: animafoto 3s;
+  width: auto;
+  height: auto;
+}
+
+.contato{
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-image: url("../img/form.jpg");
+  background-attachment: fixed;
+  background-attachment: scroll;
+  font-weight: 800;
+  font-size: 1em;
+  color: white;
+}
+.tudo{ 
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 800;
+  font-size: 1em;
+}  
+
+.nave{
+  background-image: url("../img/fundoverde.jpg");
+}
+
+.page-footer{
+  background-image: url("../img/fundoverde.jpg");
+}
+
+.carrossel1 img{
+  height: 200px;
+  width: 200px;
+}
+.carrossel2 img{
+  height: 200px;
+  width: 300px;
+}
+/* Animação*/
+@keyframes animafoto{
+  0%{
+    transform: scale(0);
+  }
+  50%{
+    transform: scale(1);
+  }
+}
+
+/*Responsivodade*/
+@media screen and (min-width: 960px){
+  body{
+    height: 600px;
+  }
+  .brand-logo{
+    margin-top:20px;
+  }
+  .desktop{
+    margin-top:20px;
+    margin-right: 20px;
+  }
+  .desktop li a:hover{
+    border-bottom: 2px solid whitesmoke;
+  }
+
+  .nave{
+    height: 110px;
+  } 
+
+  .sobre h3{
+    font-size: 3em;
+  }
+  
+  .sobre{
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .sobre span{
+    font-size: 1.1em;
+  }
+
+  .texto-sobre{
+    margin-top: 15px;
+  }
+  .escotismo{
+    margin-top: 70px;
+    margin-left: 25px;
+    font-weight: 800;
+    font-size: 1.1em;
+    width: 100%;
+    color: white;
+    background-color: #00897b;
+    opacity: 0.7;
+  }
+  .escotismo h4{
+    font-weight: 800;
+  }
+  .page-footer{
+    margin-top: 50px;
+  }
+  .ordem{
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: white;
+    background-color: #00897b;
+    opacity: 0.7;
+  }
+  .ordem h4{
+    font-weight: 800;
+  }
+  .ativ{
+    margin-top: 40px;
+  }
+  .atividades{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: white;
+    background-image: url("../img/fundoverde.jpg");
+    
+  }
+  .atividades h4{
+    font-weight: 800;
+  }
+  .grupo{
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: white;
+    background-color: #00897b;
+    opacity: 0.7;
+  }
+  .grupo h4{
+    font-weight: 800;
+  }
+}
